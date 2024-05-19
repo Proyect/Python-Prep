@@ -33,7 +33,7 @@ type(a)
 # In[2]:
 
 
-mi_nombre = 'juan carlos perez'
+mi_nombre = 'Ariel Marcelo Diaz'
 
 
 # 5) Crear una variable que contenga un número complejo
@@ -210,7 +210,7 @@ print(a)
 # In[23]:
 
 
-2 + '2'
+2 + 2
 
 
 # In[25]:
