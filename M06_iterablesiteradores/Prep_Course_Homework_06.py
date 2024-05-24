@@ -22,7 +22,10 @@
 # 3) Resolver el punto anterior sin utilizar un ciclo while
 
 # In[4]:
-
+forlis = [2,34,6,3,6,8]
+for i in forlis:
+    if((i%2)==0):
+        print(i)
 
 
 
@@ -44,7 +47,11 @@
 # 6) Dada la siguiente lista de números enteros entre 1 y 20, crear un ciclo donde se completen los valores faltantes: lista = [1,2,5,7,8,10,13,14,15,17,20]
 
 # In[10]:
-
+lista = [1,2,5,7,8,10,13,14,15,17,20]
+while(i <=20):
+    if(i in lista):
+        lista.append(i)
+print(lista)
 
 
 
@@ -93,6 +100,19 @@ n = 1
 # cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
 
 # In[39]:
+cadena = 'Hola Mundo. Esto es una practica del lenguaje de programación Python'
+def findText(cadena, search):
+    pos = []
+    i = 0
+    while(i != -1) :
+        i = cadena.find(search,i)+1
+        #print(i)
+        if (i == 0):
+            break
+        pos.append(i)
+    return pos
+
+print(findText(cadena, "n"))
 
 
 
